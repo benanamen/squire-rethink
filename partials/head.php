@@ -14,12 +14,12 @@
     <!--[if !IE]>-->
     <link
         rel="stylesheet"
-        href="./css/vars.screen.css"
+        href="<?= ROOT_HTTP ?>css/vars.screen.css"
         media="screen,projection,tv"
     >
     <link
         rel="stylesheet"
-        href="./css/layout.screen.css"
+        href="<?= ROOT_HTTP ?>css/layout.screen.css"
         media="screen,projection,tv"
     >
     <link

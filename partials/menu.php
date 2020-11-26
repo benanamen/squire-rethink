@@ -17,22 +17,24 @@
 <div id="fauxBody"><div id="fauxInner">
 
         <header id="top">
-            <h1><a href="/">Default Template</a></h1>
+            <h1><a href="<?= ROOT_HTTP ?>">Default Template</a></h1>
             <div id="mainMenu">
                 <a href="#" class="modalClose" hidden aria-hidden="true"></a>
                 <div><nav>
                         <a href="#" class="modalClose" hidden aria-hidden="true"></a>
                         <ul>
                             <li>
-                                <em>Home</em>
+                                <a href="<?= ROOT_HTTP ?>">
+                                    Home
+                                </a>
                             </li>
                             <li>
-                                <a href="./aBunchOFGobbledegook">
+                                <a href="<?= ROOT_HTTP ?>aBunchOFGobbledegook">
                                     404
                                 </a>
                             </li>
                             <li>
-                                <a href="./test">
+                                <a href="<?= ROOT_HTTP ?>test">
                                     Test
                                 </a>
                             </li>

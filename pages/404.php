@@ -12,7 +12,7 @@
                 <h2>404 - Not Found</h2>
                 <p>
                     Your request
-                    "<em>/<?= $path ?></em>"
+                    "<em><?= htmlspecialchars($_SERVER['REQUEST_URI'])?></em>"
                     could not be served at this time.
                 </p>
             </div>

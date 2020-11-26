@@ -1,22 +1,15 @@
 <?php
 
-$allowedPages = ['default', 'test', 'contact'];
+require 'bootstrap.php';
+
 $path = strtolower(trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'));
+$subDirPath = 'squire-rethink';// No trailing slash
 
-if (empty($path))
-{
-    $page = 'default.php';
-}
-elseif (in_array($path, $allowedPages) && file_exists("./pages/$path.php"))
-{
-    $page = "$path.php";
-}
-else
-{
-    $page = '404.php';
-}
+$routes = [
+    $subDirPath => 'default',
+    $subDirPath . 'test' => 'test',
+    $subDirPath . 'contact' => 'contact',
+    $subDirPath . 'index.php' => 'default'
+];
 
-require './partials/head.php';
-require './partials/menu.php';
-require "./pages/$page";
-require './partials/footer.php';
+view('layout', ['page' => array_key_exists($path, $routes) ? $routes[$path] : '404']);

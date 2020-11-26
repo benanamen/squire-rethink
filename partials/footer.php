@@ -5,7 +5,7 @@
 </footer>
 
 <!-- #fauxInner, #fauxBody --></div></div>
-<form action="./contact" method="post" id="contact" class="modal">
+<form action="<?= ROOT_HTTP ?>contact" method="post" id="contact" class="modal">
     <a href="#" class="modalClose" hidden aria-hidden="true"></a>
     <div><section>
             <a href="#" class="modalClose" hidden aria-hidden="true"></a>
@@ -27,11 +27,11 @@
             </fieldset>
             <div class="submitsAndHiddens">
                 <button>Send Message</button>
-                <input type="hidden" name="contact_hash" value="286545dc1fac70db54bd7870b5ecce012d3b11c68003b032">
+                <input type="hidden" name="contact_hash" value="<?= hashCreate() ?>">
                 <!-- .submitsAndHiddens --></div>
         </section></div>
     <!-- #contact.modal --></form>
 
-<script src="./js/default.template.js"></script>
+<script src="<?= ROOT_HTTP ?>js/default.template.js"></script>
 
 </body></html>

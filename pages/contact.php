@@ -40,7 +40,7 @@
         <section id="tallAdvert">
             <h2>Advertisement</h2>
             <div><img
-                    src="./images/skyscraperAdvertPlaceholder.png"
+                    src="<?= ROOT_HTTP ?>images/skyscraperAdvertPlaceholder.png"
                     alt="advertisement placeholder"
                 >
             </div>

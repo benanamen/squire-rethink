@@ -278,9 +278,9 @@
                 <div class="inner">
                     <section>
                         <picture>
-                            <source srcset="/images/avatars/moe.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/moe.webp" type="image/webp">
                             <img
-                                src="/images/avatars/moe.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/moe.jpg"
                                 alt="Moe Howard"
                                 loading="lazy"
                             >
@@ -293,9 +293,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/larry.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/larry.webp" type="image/webp">
                             <img
-                                src="/images/avatars/larry.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/larry.jpg"
                                 alt="Larry Fine"
                                 loading="lazy"
                             >
@@ -308,9 +308,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/curly.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/curly.webp" type="image/webp">
                             <img
-                                src="/images/avatars/curly.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/curly.jpg"
                                 alt="Curly Howard"
                                 loading="lazy"
                             >
@@ -323,9 +323,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/shemp.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/shemp.webp" type="image/webp">
                             <img
-                                src="/images/avatars/shemp.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/shemp.jpg"
                                 alt="Shemp Howard"
                                 loading="lazy"
                             >
@@ -338,9 +338,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/joe.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/joe.webp" type="image/webp">
                             <img
-                                src="/images/avatars/joe.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/joe.jpg"
                                 alt="Joe DeRita"
                                 loading="lazy"
                             >
@@ -367,9 +367,9 @@
                 <div class="inner">
                     <section>
                         <picture>
-                            <source srcset="/images/avatars/moe.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/moe.webp" type="image/webp">
                             <img
-                                src="/images/avatars/moe.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/moe.jpg"
                                 alt="Moe Howard"
                                 loading="lazy"
                             >
@@ -382,9 +382,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/larry.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/larry.webp" type="image/webp">
                             <img
-                                src="/images/avatars/larry.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/larry.jpg"
                                 alt="Larry Fine"
                                 loading="lazy"
                             >
@@ -397,9 +397,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/curly.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/curly.webp" type="image/webp">
                             <img
-                                src="/images/avatars/curly.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/curly.jpg"
                                 alt="Curly Howard"
                                 loading="lazy"
                             >
@@ -412,9 +412,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/shemp.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/shemp.webp" type="image/webp">
                             <img
-                                src="/images/avatars/shemp.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/shemp.jpg"
                                 alt="Shemp Howard"
                                 loading="lazy"
                             >
@@ -427,9 +427,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/joe.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/joe.webp" type="image/webp">
                             <img
-                                src="/images/avatars/joe.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/joe.jpg"
                                 alt="Joe DeRita"
                                 loading="lazy"
                             >
@@ -455,9 +455,9 @@
                 <div class="inner">
                     <section>
                         <picture>
-                            <source srcset="/images/avatars/moe.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/moe.webp" type="image/webp">
                             <img
-                                src="/images/avatars/moe.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/moe.jpg"
                                 alt="Moe Howard"
                                 loading="lazy"
                             >
@@ -470,9 +470,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/larry.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/larry.webp" type="image/webp">
                             <img
-                                src="/images/avatars/larry.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/larry.jpg"
                                 alt="Larry Fine"
                                 loading="lazy"
                             >
@@ -485,9 +485,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/curly.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/curly.webp" type="image/webp">
                             <img
-                                src="/images/avatars/curly.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/curly.jpg"
                                 alt="Curly Howard"
                                 loading="lazy"
                             >
@@ -500,9 +500,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/shemp.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/shemp.webp" type="image/webp">
                             <img
-                                src="/images/avatars/shemp.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/shemp.jpg"
                                 alt="Shemp Howard"
                                 loading="lazy"
                             >
@@ -515,9 +515,9 @@
                         </div>
                     </section><section>
                         <picture>
-                            <source srcset="/images/avatars/joe2.webp" type="image/webp">
+                            <source srcset="<?= ROOT_HTTP ?>images/avatars/joe2.webp" type="image/webp">
                             <img
-                                src="/images/avatars/joe2.jpg"
+                                src="<?= ROOT_HTTP ?>images/avatars/joe2.jpg"
                                 alt="Joe DeRita"
                                 loading="lazy"
                             >

@@ -2,14 +2,15 @@
 
 require 'bootstrap.php';
 
-$path = strtolower(trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/'));
-$subDirPath = 'squire-rethink';// No trailing slash
+$page_url = substr($_SERVER['REQUEST_URI'], strlen(ROOT_HTTP));
+$path = strtolower(parse_url($page_url, PHP_URL_PATH));
 
 $routes = [
-    $subDirPath => 'default',
-    $subDirPath . '/test' => 'test',
-    $subDirPath . '/contact' => 'contact',
-    $subDirPath . '/index.php' => 'default'
+    ''          => 'default',
+    'test'      => 'test',
+    'contact'   => 'contact',
+    'other'   => 'other/anotherfile',
+    'index.php' => 'default'
 ];
 
 view('layout', ['page' => array_key_exists($path, $routes) ? $routes[$path] : '404']);

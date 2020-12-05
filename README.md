@@ -1,0 +1,1 @@
+Squire Rethink is a refactored Architecture "rethink" of Squire 3 authored by Jason M. Knight

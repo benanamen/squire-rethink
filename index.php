@@ -3,7 +3,7 @@
 require 'bootstrap.php';
 
 $page_url = substr($_SERVER['REQUEST_URI'], strlen(ROOT_HTTP));
-$path = strtolower(parse_url($page_url, PHP_URL_PATH));
+$path = parse_url($page_url, PHP_URL_PATH);
 
 $routes = [
     ''          => 'default',
